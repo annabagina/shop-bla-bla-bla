@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 A:link {
     color: #000000;
     text-decoration: none;
@@ -22,6 +26,47 @@ A:visited {
     color: white;
     border: solid 1px #fffaf0;
     float: left;
+}
+
+.menu li {
+    width: 150px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+
+.menu li:hover {
+    background-color: #ff69b4;
+}
+
+/* mouse over link */
+.menu li:active {
+    background-color: #ff1493;
+}
+
+/*selected link*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+}
+
+/*.menu a:link {text-decoration: none;display:block;font-family:sans-serif;}*/
+/*.menu a:visited  {text-decoration: none;display:block;font-family:sans-serif;}*/
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/*.menu a:active {text-decoration: underline;display:block;font-family:sans-serif;}*/
+
+a.current-page {
+    text-decoration: underline
 }
 
 .imgs {
@@ -51,7 +96,6 @@ A:visited {
 .shop {
     text-decoration: none;
     width: 50%;
-
     margin-top: 100px;
     margin-right: auto;
     margin-left: 200px;
@@ -59,11 +103,19 @@ A:visited {
 }
 
 .shop a {
-    color:#000000;
-    display: block;
+    color: #000000;
     width: 200px;
-    height: 55px;
+    height: 200px;
     text-align: center;
     float: left;
-    padding: 5px;
+    font-size: 13px;
+}
+
+.shop a:hover {
+    text-decoration: underline;
+}
+
+.shop img {
+    width: 90px;
+    height: 80px;
 }
