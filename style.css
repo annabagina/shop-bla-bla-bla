@@ -57,13 +57,9 @@ A:visited {
     font-family: sans-serif;
 }
 
-/*.menu a:link {text-decoration: none;display:block;font-family:sans-serif;}*/
-/*.menu a:visited  {text-decoration: none;display:block;font-family:sans-serif;}*/
 .menu a:hover {
     text-decoration: underline;
 }
-
-/*.menu a:active {text-decoration: underline;display:block;font-family:sans-serif;}*/
 
 a.current-page {
     text-decoration: underline
