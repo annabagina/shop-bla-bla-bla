@@ -52,6 +52,7 @@ A:visited {
 }
 
 .menu a {
+    color: white;
     text-decoration: none;
     display: block;
     font-family: sans-serif;
